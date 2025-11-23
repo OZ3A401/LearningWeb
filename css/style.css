@@ -37,16 +37,6 @@ section {
   font-size: 30px;
   padding: 10px 80px;
 }
-i {
-  color: var(--altRedColor);
-  font-size: 45px;
-  margin-bottom: 10px !important;
-}
-.round:hover {
-  background-color: var(--blueColor);
-  color: var(--whiteColor);
-}
-
 section .container {
   display: flex;
   align-items: center;
@@ -64,6 +54,15 @@ section .container {
   background-color: var(--altBlueColor);
 }
 
+i {
+  color: var(--altRedColor);
+  font-size: 45px;
+  margin-bottom: 10px !important;
+}
+.round:hover {
+  background-color: var(--blueColor);
+  color: var(--whiteColor);
+}
 .info-box {
   transition: 0.3s;
 }
@@ -301,9 +300,9 @@ section .container {
   .first-session .btn.out {
     transform: none;
   }
+
   .start-btn {
     font-size: 24px;
-      
     padding: 8px 20px;
   }
 }
@@ -317,7 +316,4 @@ section .container {
     width: 100px !important;
     font-size: 12px;
   }
-
 }
-
-
