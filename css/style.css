@@ -301,8 +301,10 @@ section .container {
   .first-session .btn.out {
     transform: none;
   }
-    .start-btn {
+  .start-btn {
     font-size: 24px;
+      
+    padding: 8px 20px;
   }
 }
 @media (max-width: 375px) {
@@ -317,4 +319,5 @@ section .container {
   }
 
 }
+
 
