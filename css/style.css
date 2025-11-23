@@ -301,6 +301,9 @@ section .container {
   .first-session .btn.out {
     transform: none;
   }
+    .start-btn {
+    font-size: 24px;
+  }
 }
 @media (max-width: 375px) {
   .first-session i {
@@ -314,3 +317,4 @@ section .container {
   }
 
 }
+
