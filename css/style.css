@@ -268,7 +268,7 @@ i {
 }
 @media (max-width : 991px) {
   .first-session .heading {
-    padding: 10px 50px;
+    padding: 10px 30px;
     margin-bottom: 20px !important;
   }
   .first-session .round {
@@ -318,3 +318,4 @@ i {
     font-size: 12px;
   }
 }
+
