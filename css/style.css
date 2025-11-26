@@ -164,7 +164,7 @@ i {
 }
 @media (max-width : 991px) {
   .intro .box {
-    padding: 40px;
+    /* padding: 40px; */
     font-size: 18px;
   }
   .intro .btns {
@@ -318,4 +318,3 @@ i {
     font-size: 12px;
   }
 }
-
