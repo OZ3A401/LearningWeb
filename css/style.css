@@ -141,9 +141,12 @@ i {
   }
   .intro .box{
     top: 120px !important;
-    padding: 65px 10px;
+    padding: 50px 20px;
     width: calc(100% - 50px);
-    height: 50%;
+    height: 60%;
+    * {
+      line-height: 2;
+    }
   }
   .intro .box,
   .intro .box h2 {
@@ -154,7 +157,7 @@ i {
     right: -3px;
   }
   .intro .btn {
-    transform: none !important;
+    transform: translateY(50px) !important;
   }
   .intro .btn a,
   .intro #out {
@@ -203,7 +206,7 @@ i {
 }
 @media (max-width : 767px) {
   .heading {
-    font-size: 16px;
+    font-size: 20px;
     padding: 5px 20px;
     margin-top: 40px !important;
     margin-bottom: 80px !important;
@@ -268,7 +271,7 @@ i {
 }
 @media (max-width : 991px) {
   .first-session .heading {
-    padding: 10px 30px;
+    padding: 10px 20px;
     margin-bottom: 20px !important;
   }
   .first-session .round {
@@ -318,4 +321,3 @@ i {
     font-size: 12px;
   }
 }
-
